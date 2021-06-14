@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+}
+
+.switch {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 5em;
+    margin-bottom: .3em;
+}
+
+.calculator {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 30%;
+    color: white;
+}
+
+
+.title-switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.3em;
+}
+
+
+.last-min {
+    font-size: 2em;
+}
+
+
+.special {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10vw;
+    gap: 1em;
+}
+
+.special:first-child {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.toggle-switch {
+    background: hsl(223, 31%, 20%);
+    width: 5.2vw;
+    height: 3vh;
+    border-radius: 20px;
+}
+
+.ball-toggle {
+    width: 1.2vw;
+    height: 1.8vh;
+    background: hsl(6, 63%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.display {
+    padding: 1em;
+    text-align: end;
+    background:  hsl(224, 36%, 15%);
+    font-size: 2.3em;
+    border-radius: 10px;
+    margin-bottom: .8em;
+}
+
+.previous {
+    font-size: 20px;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+.inner-keypad {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1.4em;
+    font-size: 2em;
+}
+
+.keypad {
+    background:  hsl(223, 31%, 20%);
+    border-radius: 10px;
+}
+
+.key {
+    background:   hsl(225, 21%, 49%);
+    box-shadow: 0px 3px 2px 1px  hsl(224, 28%, 35%);
+    border-radius: 5px;
+    text-align: center;
+    font-size: .777em;
+}
+
+.del {
+    background:  hsl(225, 21%, 49%);
+    color: hsl(0, 0%,100%); 
+    box-shadow: 0px 3px 2px 1px  hsl(224, 28%, 35%);
+    font-size: .55em; 
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.yego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    padding-top: 0em;
+}
+
+.yego-bd {
+    padding: 20px 85px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+.reset {
+    background:   hsl(225, 21%, 49%);
+    box-shadow: 0px 3px 2px 1px  hsl(224, 28%, 35%);
+}
+
+.equality {
+    background:  hsl(6, 63%, 50%);
+    box-shadow: 0px 3px 2px 1px  hsl(6, 70%, 34%);
+}
+
+
+
+    /*  SECOND THME STYLE */
+
+    .toggle-switch.white {
+        justify-content: center;
+        background:  hsl(0, 5%, 81%);
+    }
+
+    .ball-toggle.white-ball {
+        background:  hsl(25, 98%, 40%);
+    }
+
+    .body.white-body {
+        background: hsl(0, 0%, 90%);
+    }
+
+    .title-switch.white-text {
+        color:  hsl(60, 10%, 19%);
+    }
+
+    .switch.white-num {
+        color:  hsl(60, 10%, 19%);
+    }
+
+    .display.white-figure {
+        background:  hsl(0, 0%, 93%);
+        color:  hsl(60, 10%, 19%);
+    }
+
+    .keypad.white-keypad {
+        background: hsl(0, 5%, 81%);;
+    }
+
+    .key.white-key {
+        color: hsl(60, 10%, 19%);
+        background:    hsl(0, 0%, 90%);
+    }
+
+    .del.del-key {
+        background:    hsl(185, 42%, 37%);
+        color:  hsl(0, 0%, 100%);
+        box-shadow: 0px 3px 2px -1px    hsl(185, 58%, 25%);
+    }
+
+    .reset.reset-white {
+        background:    hsl(185, 42%, 37%);
+        color:  hsl(0, 0%, 100%);
+        box-shadow: 0px 3px 2px -1px   hsl(185, 58%, 25%);
+        
+    }
+
+    .equality.white-equality {
+        background: hsl(25, 98%, 40%);
+        box-shadow: 0px 3px 2px -1px  hsl(25, 99%, 27%);
+    }
+
+
+ 
+    /* THIRD THEME */
+    .toggle-switch.purple {
+        justify-content: flex-end;
+        background:  hsl(268, 71%, 12%)
+
+    }
+
+    .ball-toggle.purple-ball {
+        background:   hsl(176, 100%, 44%)
+    }
+
+    .body.purple-body {
+        background: hsl(268, 75%, 9%);
+    }
+
+    .title-switch.purple-text {
+        color:  hsl(52, 100%, 62%)
+    }
+
+    .switch.purple-num {
+        color:  hsl(52, 100%, 62%)
+    }
+
+    .display.purple-figure {
+        background:   hsl(268, 71%, 12%);
+        color:   hsl(52, 100%, 62%)
+    }
+
+    .keypad.purple-keypad {
+        background:   hsl(268, 71%, 12%);
+    }
+
+    .key.purple-key {
+        color: hsl(52, 100%, 62%);
+        background:   hsl(268, 47%, 21%);
+        box-shadow: 0px 3px 2px -1px  hsl(290, 70%, 36%) ;
+    }
+
+    .del.del-2-key {
+        background:    hsl(281, 89%, 26%);
+        color:  hsl(0, 0%, 100%);
+        box-shadow: 0px 3px 2px -1px  hsl(285, 91%, 52%);
+    }
+
+    .reset.reset-purple {
+        background:    hsl(281, 89%, 26%);
+        color:  hsl(0, 0%, 100%);
+        box-shadow: 0px 3px 2px -1px  hsl(285, 91%, 52%);
+    }
+
+    .equality.purple-equality {
+        background: hsl(176, 100%, 44%);
+        box-shadow: 0px 3px 2px -1px  hsl(177, 92%, 70%);
+    }
+
+
+@media (max-width: 1440px) {
+    .calculator {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35%;
+        height: 70%;
+        color: white;
+    }
+
+    .special {
+        width: 11vw;
+    }
+ 
+
+    .toggle-switch {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .ball-toggle {
+        position: initial;
+    }
+
+    .key {
+        background-color:  hsl(30, 25%, 89%);
+        box-shadow: 0px 3px 2px 1px hsl(28, 16%, 65%);
+        border-radius: 5px;
+        color: hsl(221, 14%, 31%);
+        width: 5vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .inner-keypad {
+        font-size: 2.3em;
+    }
+
+    .ball-toggle{
+        background:  hsl(6, 63%, 50%);
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .calculator {
+        height: 87vh;
+    }
+
+    .yego-bd {
+        padding: 19px 60px;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+
+    .special {
+        width: 16vw;
+    }
+
+    .toggle-switch {
+        width: 6.2vw;
+    }
+
+    .ball-toggle {
+        width: 1.7vw;
+    }
+
+    .inner-keypad {
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 325px) {
+    .calculator {
+        transform: scale(.8);
+        top: 10%;
+        left: 0%;
+        height: 70%;
+        width: 105vw;
+    }
+
+    .toggle-switch {
+        width: 17vw;
+    }
+
+    .special{
+        width: 50vw;
+    }
+
+    .ball-toggle {
+        width: 5vw;
+    }
+
+    .key {
+        width: 12vw;
+    }
+
+    .key.del {
+        font-size: 18px;
+    }
+
+    .yego-bd {
+        text-transform: uppercase;
+        border-radius: 10px;
+        width: 35vw;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-keypad {
+        font-size: 2em;
+    }
+}
